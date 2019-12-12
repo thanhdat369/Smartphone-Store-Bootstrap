@@ -1,0 +1,144 @@
+@charset "utf-8";
+*
+{
+	margin:0;padding:0; 
+}
+body{font-family: 'Lato', sans-serif;}
+/*navbar*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #043552;
+	color:#0295A0;
+}
+.navbar-inverse
+{
+	background-color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: #4fabd0;
+    background-color: #183947;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+{
+	color: white;
+    background-color: #183947;
+}
+/*end nav*/
+/**/
+/**/
+/* Strart new product */
+.new_product
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color:#043552;
+	color: white;
+	
+}
+ .new_product .product
+ {
+	height:325px;
+	color:white;
+	background-color:#00000052;
+  	padding: 20px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px dotted white;
+	 
+ }
+.new_product .title_heading
+{
+	border: none;
+}
+/* end of new product */
+
+
+/**/
+/* strat smartphone */
+.smartphone
+{
+	padding: 40px;
+	background-color: #286178;
+}
+.smartphone .info_product li
+{
+	list-style-type: none;
+	margin-top: 10px;
+}
+.smartphone .product_info_box
+{
+	padding: 40px 0 40px 0;
+	color:white;
+}
+.thumbnail
+{
+	background-color: #00000052;
+}
+/*End smartphone*/
+/*
+*
+*
+*/
+
+/*
+*
+*/
+/*start footer */
+footer
+{
+	padding-top: 20px;
+	background-color: #043552;
+	
+}
+footer .footer-copyright
+{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	background-color:#286178;
+}
+footer ul li
+{
+	list-style-type: none;
+	color: white;
+}
+footer .info_footer 
+{
+	padding:20px 0px;
+}
+footer .social_icon img
+{
+	margin-right: 20px;
+}
+footer .social_icon
+{
+	text-align: center;
+}
+/*end footer*/
+
+
+.title_heading
+ {
+ 	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	border-top: 2px dashed white;
+ }
+.title_heading h1
+{
+	font-size: 46px;
+	font-weight: 900;
+	color:white;
+}
+
+.name
+{
+	font-size: 24px;
+	color:white;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+}
+
+/* CSS Document */
+

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+/*navbar*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #043552;
+	color:#0295A0;
+}
+.navbar-inverse
+{
+	background-color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: #4fabd0;
+    background-color: #183947;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+{
+	color: white;
+    background-color: #183947;
+}
+/*end nav*/
+.title_heading
+ {
+ 	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	border-top: 2px dashed black;
+ }
+.kengang
+{
+	margin-top: 20px;
+	border-bottom: 2px dashed black;
+}
+.title_heading h1
+{
+	font-size: 46px;
+	font-weight: 900;
+	color:black;
+}
+/*article*/
+article
+{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	background-color: #f6f6f6;
+}
+article .small_info
+{
+	padding: 20px;
+}
+article .small_info a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+article .small_info .readmore
+{
+	font-size: 12px;
+}
+/*article*/
+footer
+{
+	padding-top: 20px;
+	background-color: #043552;
+	
+}
+footer .footer-copyright
+{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	background-color:#286178;
+}
+footer ul li
+{
+	list-style-type: none;
+	color: white;
+}
+footer .info_footer 
+{
+	padding:20px 0px;
+}
+footer .social_icon img
+{
+	margin-right: 20px;
+}
+footer .social_icon
+{
+	text-align: center;
+}
