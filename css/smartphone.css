@@ -1,72 +1,57 @@
 /* Strart new product */
 @import url("variable.css");
 @import url("main-style.css");
-.new_product
-{
+
+.new_product {
 	padding-top: 100px;
 	padding-bottom: 50px;
-	background-color:#043552;
-	color: white;
-	
+	background-color: var(--main-bg-color);
+	color: var(--text-light-01);
+
 }
- .new_product .product
- {
-	height:325px;
-	color:white;
-	background-color:#00000052;
-  	padding: 20px;
+
+.new_product .product {
+	height: 325px;
+	color: var(--text-light-01);
+	background-color: var(--dark-bg-color-overlay-50);
+	padding: 20px;
 	margin-bottom: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	border: 1px dotted white;
-	 
- }
-.new_product .title_heading
-{
-	border: none;
+	border: 1px dotted var(--light-border-color);
+
 }
 /* end of new product */
 
 
 /**/
 /* strat smartphone */
-.smartphone
-{
+.smartphone {
+	background-color: var(--second-bg-color);
 	padding: 40px;
-	background-color: #286178;
+	
 }
-.smartphone .info_product li
-{
+
+.smartphone .info_product li {
 	list-style-type: none;
 	margin-top: 10px;
 }
-.smartphone .product_info_box
-{
+
+.smartphone .product_info_box {
 	padding: 40px 0 40px 0;
-	color:white;
+	color: var(--text-light-01);
 }
-.thumbnail
-{
-	background-color: #00000052;
+
+.thumbnail {
+	background-color: var(--dark-bg-color-overlay-50);
 }
+
 /*End smartphone*/
-/*
-*
-*
-*/
 
-/*
-*
-*/
-
-.name
-{
+.name {
 	font-size: 24px;
-	color:white;
+	color: var(--text-light-01);
 	font-weight: bold;
 	margin: 20px 0 20px 0;
 }
-
-/* CSS Document */
-

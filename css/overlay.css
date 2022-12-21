@@ -43,11 +43,18 @@
 }
 .contain_product .btn
 {
-	border: solid 1px #0965A6;
+	border: solid 1px var(--main-color);
 	background-color: var(--dark-bg-color);
 	font-size: 16px;
-	color:#a3cfef;
+	color: var(--main-color);
 }
+
+.contain_product .btn:hover
+{
+	background-color: var(--main-bg-color);
+	color: var(--light-text-color);
+}
+
 /* CSS Document */
 
 

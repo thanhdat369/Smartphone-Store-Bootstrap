@@ -20,3 +20,7 @@ article .small_info .readmore
 {
 	font-size: 12px;
 }
+
+.title_heading h1 {
+    color: var(--text-dark);
+}

@@ -24,12 +24,6 @@ body {
     background-color: var(--main-bg-color);
 }
 
-/* .navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
-    color: var(--text-light-02);
-    background-color: var(--second-bg-color);
-} */
-
 /*end nav*/
 footer {
     padding-top: 20px;
@@ -81,5 +75,5 @@ footer .social_icon {
 .title_heading h1 {
     font-size: 46px;
     font-weight: 900;
-    color: var(--dark-border-color);
+    color: var(--text-light-01);
 }
