@@ -1,5 +1,5 @@
 @import url("variable.css");
-
+@import url("main-style.css");
 article
 {
 	padding-top: 70px;
@@ -24,7 +24,7 @@ article .date
 {
 	display: block;
 	font-size: 12px;
-	color:gray;
+	color: var(--dark-04);
 	margin-bottom:10px;
 }
 /* End Article */

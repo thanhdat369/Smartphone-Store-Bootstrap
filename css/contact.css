@@ -9,7 +9,7 @@
 }
 .contact_us label
 {
-	color: white;
+	color: var(--text-light-01);
 	font-weight: 18px;
 }
 .contact_us .label_radio
@@ -35,55 +35,3 @@ form
 	background-color: var(--main-bg-color);
 	padding-top: 40px;
 }
-/*End map*/
-/*
-*
-*/
-/*start footer */
-footer
-{
-	padding-top: 20px;
-	background-color: #286178;
-	
-}
-footer .footer-copyright
-{
-	color: white;
-	text-align: center;
-	padding: 10px;
-	background-color:#043552 ;
-}
-footer ul li
-{
-	list-style-type: none;
-	color: white;
-}
-footer .info_footer 
-{
-	padding:20px 0px;
-}
-footer .social_icon img
-{
-	margin-right: 20px;
-}
-footer .social_icon
-{
-	text-align: center;
-}
-/*end footer*/
-
-
-.title_heading
- {
- 	text-align: center;
-	margin-bottom: 20px;
-	padding-top: 20px;
-	border-top: 2px dashed white;
- }
-.title_heading h1
-{
-	font-size: 46px;
-	font-weight: 900;
-	color:white;
-}
-
