@@ -1,7 +1,12 @@
-root{
+:root{
     --main-color: #0295A0;
     --main-bg-color: #043552;
+    --second-bg-color: #286178;
+    --light-bg-color: rgb(220, 220, 220);
+    --dark-bg-color: rgb(0, 0, 0);
 
+    --dark-bg-color-overlay-50: rgba(0, 0, 0, 50%);
+    --dark-bg-color-overlay-75: rgba(0, 0, 0, 75%);
     
     --text-light-01: white;
     --text-light-02: white;
