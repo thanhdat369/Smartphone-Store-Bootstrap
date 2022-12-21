@@ -1,0 +1,14 @@
+root{
+    --main-color: #0295A0;
+    --main-bg-color: #043552;
+
+    
+    --text-light-01: white;
+    --text-light-02: white;
+
+    /* dark color  */
+    --dark-01: black;
+    --dark-02: rgb(30, 30, 30);
+    --dark-03: rgb(60, 60, 60);
+    --dark-04: rgb(90, 90, 90);
+}
