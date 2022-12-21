@@ -1,31 +1,11 @@
-@charset "utf-8";
-body{font-family: 'Lato', sans-serif;;}
-/*navbar*/
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #043552;
-	color:#0295A0;
-}
-.navbar-inverse
-{
-	background-color: black;
-}
-.navbar-inverse .navbar-brand {
-    color: #4fabd0;
-    background-color: #183947;
-}
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
-{
-	color: white;
-    background-color: #183947;
-}
-/* CSS Document */
-/*End navbar*/
+@import url("main-style.css");
+@import "variable.css";
 /* Contact Us main */
 .contact_us
 {
 	padding-top: 100px;
 	padding-bottom: 50px;
-	background-color: #286178;
+	background-color: var(--main-bg-color);
 }
 .contact_us label
 {
@@ -45,14 +25,14 @@ body{font-family: 'Lato', sans-serif;;}
 form
 {
 	padding: 20px;
-	background-color: #00000069;
+	background-color: var(--dark-bg-color-overlay-50);
 	border-radius: 20px;
 	
 }
 
 .map
 {
-	background-color: #043552;
+	background-color: var(--main-bg-color);
 	padding-top: 40px;
 }
 /*End map*/
