@@ -1,3 +1,4 @@
+@import url("variable.css");
 .contain_product{
     position: relative;
     width: 100%;
@@ -43,7 +44,7 @@
 .contain_product .btn
 {
 	border: solid 1px #0965A6;
-	background-color:black;
+	background-color: var(--dark-bg-color);
 	font-size: 16px;
 	color:#a3cfef;
 }

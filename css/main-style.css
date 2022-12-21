@@ -11,42 +11,42 @@ body {
 /*navbar*/
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-    background-color: var(--main-color);
-    color: var(--main-bg-color);
+    background-color: var(--second-bg-color);
+    color: var(--text-light-01);
 }
 
 .navbar-inverse {
-    background-color: black;
+    background-color: var(--dark-bg-color);
 }
 
 .navbar-inverse .navbar-brand {
-    color: white;
-    background-color: #183947;
+    color: var(--text-light-01);
+    background-color: var(--main-bg-color);
 }
 
-.navbar-inverse .navbar-brand:hover,
+/* .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-    color: rgb(194, 194, 194);
-    background-color: #2d657d;
-}
+    color: var(--text-light-02);
+    background-color: var(--second-bg-color);
+} */
 
 /*end nav*/
 footer {
     padding-top: 20px;
-    background-color: #043552;
+    background-color: var(--main-bg-color);
 
 }
 
 footer .footer-copyright {
-    color: white;
+    color: var(--text-light-01);
     text-align: center;
     padding: 10px;
-    background-color: #286178;
+    background-color: var(--second-bg-color);
 }
 
 footer ul li {
     list-style-type: none;
-    color: white;
+    color: var(--text-light-01);
 }
 
 footer .info_footer {
@@ -70,16 +70,16 @@ footer .social_icon {
     text-align: center;
     margin-bottom: 50px;
     padding-top: 20px;
-    border-top: 2px dashed black;
+    border-top: 2px dashed var(--dark-border-color);
 }
 
 .kengang {
     margin-top: 20px;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px dashed var(--dark-border-color);
 }
 
 .title_heading h1 {
     font-size: 46px;
     font-weight: 900;
-    color: black;
+    color: var(--dark-border-color);
 }

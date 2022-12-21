@@ -1,14 +1,15 @@
 @import url("variable.css");
+@import url("main-style.css");
 header
 {	
 	width: 100%;
-    background-color:black;
+    background-color:var(--dark-bg-color);
 	padding: 80px 0 40px 0;
 	min-height: 650px;
 }
 header .title_banner
 {
-	color:white;
+	color:var(--text-light-01);
 	margin: 20px 0px;
 }
 header .banner_article
@@ -20,7 +21,7 @@ header .banner_article
 header .btn
 {
 	border: solid 1px #0965A6;
-	background-color:black;
+	background-color:var(--dark-bg-color);
 	font-size: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -86,7 +87,7 @@ header .btn
  .product
  {
 	color:white;
-	background-color:#00000052;
+	background-color: var(--dark-bg-color);
   	padding: 20px;
 	margin-bottom: 20px;
 	height: 200px;
@@ -108,8 +109,8 @@ header .btn
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background-color: #00000052;
-	color:white;
+	background-color: var(--dark-bg-color);
+	color: var(--text-light-01);
 }
 .big_product img
 {

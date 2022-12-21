@@ -8,8 +8,12 @@
     --dark-bg-color-overlay-50: rgba(0, 0, 0, 50%);
     --dark-bg-color-overlay-75: rgba(0, 0, 0, 75%);
     
+    --dark-border-color: black;
+    --light-boder-color: white;
+    --main-color-border: var(--main-color); 
+
     --text-light-01: white;
-    --text-light-02: white;
+    --text-light-02: rbg(160, 160 ,160);
 
     /* dark color  */
     --dark-01: black;
