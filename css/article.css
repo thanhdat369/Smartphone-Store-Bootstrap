@@ -8,7 +8,9 @@ article
 }
 article img
 {
-	padding-bottom: 30px;
+	max-width: 75%;
+	width: 75%;
+	margin: 30px auto;
 }
 article h1
 {
